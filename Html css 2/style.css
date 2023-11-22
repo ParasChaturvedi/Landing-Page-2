@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icons-span i,.timing-text,.contact span{
+    color: rgb(119, 119, 119);
+}
+.navbar-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+    height: 35px;
+}
+.timing{
+    width: 30%;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+.email,.mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timing span,.contact span{
+    margin-left: 5px;
+}
+.contact i{
+    color: red;
+}
+
+/* Navbar 2 start  */
+
+.navbar-2{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ height: 70px;
+ box-shadow:10px 0px 10px rgb(119, 119, 119);
+}
+.logo{
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-icon i{
+    color: red;
+    font-size: 2.3rem;
+}
+.logo-text{
+    text-align: center;
+
+}
+.logo-text-heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111;
+}
+.logo-text-span{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+}
+.nav-tags ul{
+    display: flex;
+}
+.nav-tags ul li{
+    margin-left: 20px;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.btn button{
+    background-color: red;
+    color: white;
+    padding: 9px 12px;
+    font-size: 1rem;
+    border: none;
+margin-top: -9px;
+}
